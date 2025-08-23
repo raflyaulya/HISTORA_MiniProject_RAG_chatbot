@@ -4,5 +4,11 @@ langchain
 chromadb
 python-dotenv
 pydantic
+torch
 tiktoken
 requests
+pathlib
+langchain_chroma 
+langchain_huggingface
+langchain_core
+langchain_community
