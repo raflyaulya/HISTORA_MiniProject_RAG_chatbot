@@ -18,4 +18,4 @@ langchain_deepseek
 # langchain-core
 # langchain-community
 # langchain-chroma 
-setup
+# setup

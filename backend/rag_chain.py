@@ -16,7 +16,7 @@ from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings 
 from langchain.chains.retrieval_qa.base import RetrievalQA 
 from dotenv import * 
-from setup import llm_deepseek
+from backend.setup import llm_deepseek
 import torch
 from backend.config import *
 
