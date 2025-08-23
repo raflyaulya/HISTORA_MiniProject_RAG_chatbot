@@ -1,11 +1,9 @@
 venv/
 __pycache__/
 rag_chain.zip
-/.env
 .env
-/backend/*.env
-backend/.env
+/.env
 */.env
-*/chromadb_store/
-/chromadb_store/
+*/*.env
+chromadb_store/
 *.pyc
