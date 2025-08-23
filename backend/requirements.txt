@@ -12,3 +12,10 @@ langchain_chroma
 langchain_huggingface
 langchain_core
 langchain_community
+langchain_deepseek
+
+# langchain-huggingface
+# langchain-core
+# langchain-community
+# langchain-chroma 
+setup
