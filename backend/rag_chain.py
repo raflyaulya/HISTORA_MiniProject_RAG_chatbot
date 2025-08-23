@@ -16,10 +16,22 @@ from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings 
 from langchain.chains.retrieval_qa.base import RetrievalQA 
 from dotenv import * 
-from backend.setup import llm_deepseek
+# from backend.setup import llm_deepseek
 import torch
 from backend.config import *
+from dotenv import *
+from langchain_deepseek import *
 
+
+model_name = 'deepseek-chat'
+def llm_deepseek():
+    llm = ChatDeepSeek(
+        api_key=DEEPSEEK_API, 
+        temperature= .5, 
+        # max_tokens= max_tokens,
+        model=model_name,) 
+    
+    return llm
 
 def load_rag_chain(): 
     # print('Loading chroma vectorstore...')
