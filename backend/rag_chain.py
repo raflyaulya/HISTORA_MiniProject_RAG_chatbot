@@ -18,7 +18,7 @@ from langchain.chains.retrieval_qa.base import RetrievalQA
 from dotenv import * 
 from setup import llm_deepseek
 import torch
-from config import *
+from backend.config import *
 
 
 def load_rag_chain(): 

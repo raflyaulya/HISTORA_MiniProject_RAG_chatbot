@@ -15,7 +15,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 import os 
 import torch
 from dotenv import *
-from config import *
+from backend.config import *
 
 def load_documents(data_dir): 
     # LOAD Process  
