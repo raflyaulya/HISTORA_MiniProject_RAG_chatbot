@@ -1,3 +1,6 @@
 venv/
 __pycache__/
 rag_chain.zip
+*.env
+**.env
+*.pyc
