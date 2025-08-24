@@ -16,6 +16,10 @@ from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings 
 from langchain.chains.retrieval_qa.base import RetrievalQA  
 import torch
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+
 from backend.setup import llm_deepseek
 from backend.config import BASE_DIR, CHUNK_OVERLAP, CHUNK_SIZE, DATA_DIR, DB_DIR, DEEPSEEK_API, EMBEDDING_MODEL
 
