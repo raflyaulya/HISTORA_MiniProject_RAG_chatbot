@@ -1,6 +1,6 @@
-from langchain_deepseek import *
+from langchain_deepseek import ChatDeepSeek
 # from langchain_deepseek.chat_models import ChatDeepSeek
-from dotenv import * 
+from dotenv import load_dotenv, find_dotenv
 import random
 import string 
 import os 
