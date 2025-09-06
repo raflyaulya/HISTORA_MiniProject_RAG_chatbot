@@ -6,6 +6,7 @@ __pycache__/
 */.env
 */*.env
 chromadb_store/
+/chromadb_store/
 *.pyc
 *.sqlite3
 */.sqlite3
